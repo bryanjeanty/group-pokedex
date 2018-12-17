@@ -1,0 +1,334 @@
+// Color Scheme
+$poke_light_blue: #048BA8;
+$lavender_mist: #EDE6F2;
+
+// Bar Color Scheme
+$flirt: #A4036F;
+$caribbean_green: #16DB93;
+$maize: #EFEA5A;
+
+// Functional colors
+$body_bg_color: $lavender_mist;
+$header_color: $poke_light_blue;
+$li_hover_color: $lavender_mist;
+$main_color: $poke_light_blue;
+$footer_color: $poke_light_blue;
+$border_color: $lavender_mist;
+$text_color: $lavender_mist;
+$underline_color: $lavender_mist;
+$button_color: $poke_light_blue;
+$form_color: $lavender_mist;
+$input_border_color: $poke_light_blue;
+$bar_border_color: $lavender_mist;
+$hp_color: $flirt;
+$attack_color: $caribbean_green;
+$defense_color: $maize;
+
+// Bar heights
+// Alakazam
+$alakazam_hp_height: 55%;
+$alakazam_attack_height: 50%;
+$alakazam_defense_height: 45%;
+// Squirtle
+$squirtle_hp_height: 44%;
+$squirtle_attack_height: 48%;
+$squirtle_defense_height: 65%;
+// Xatu
+$xatu_hp_height: 65%;
+$xatu_attack_height: 75%;
+$xatu_defense_height: 70%;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: $body_bg_color;
+    color: $text_color;
+}
+
+nav {
+    background-color: $header_color;
+    height: 50px;
+    ul {
+        width: 80%;
+        margin: auto;
+        li {
+            list-style: none;
+            display: inline-block;
+            margin: 15px 30px 10px 0;
+            .nav_links {
+                text-decoration: none;
+                color: $text_color;
+                height: 100%;
+                width: 100%;
+            }
+        }
+        li:hover {
+            border-bottom: 1px solid $li_hover_color;
+        }
+    }
+}
+
+main {
+    height: 800px;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: $main_color;
+    border-radius: 25px;
+    color: $text_color;
+    h1 {
+        text-align: center;
+        font-size: 2.25em;
+        padding: 20px;
+    }
+    .carousel-container {
+        width: 50%;
+        margin: auto;
+        img {
+            height: 300px;
+            border-radius: 25px;
+        }
+        .carousel-control-prev {
+            margin-left: 300px;
+            background-color: $body_bg_color;
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            margin-top: 315px;
+        }
+        .carousel-control-next {
+            margin-right: 300px;
+            background-color: $body_bg_color;
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            margin-top: 315px;
+        }
+    }
+
+    .trainer-input {
+        background-color: $form_color;
+        text-align: center;
+        padding: 10px;
+        margin: 50px 0 30px 0;
+        input {
+            margin: 0 40px;
+            border: none;
+            padding-left: 5px;
+            border: 1px solid $input_border_color;
+        }
+        button {
+            padding: 8px 13px;
+            border: none;
+            text-align: center;
+            color: $text_color;
+            background-color: $button_color;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+    }
+}
+
+footer {
+    background-color: $footer_color;
+    height: 100%;
+    .btm-pg {
+        width: 80%;
+        margin: auto;
+        h4 {
+            margin-top: 10px;
+        }
+        li {
+            list-style: none;
+        }
+        p {
+            text-align: center;
+            margin-bottom: 0;
+        }
+    }
+}
+
+// Design for character pages
+.char_main {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: $main_color;
+    border-radius: 25px;
+    color: $text_color;
+    h1 {
+        text-align: center;
+        font-size: 2.25em;
+        padding: 20px;
+    }
+    .box_item {
+        margin-left: 120px;
+        margin-right: 40px;
+        .pokemon_img {
+            width: 35%;
+            float: left;
+        }
+
+        .pokemon_sect {
+            width: 50%;
+            float: right;
+            margin-top: 50px;
+            padding-top: 15px;
+            border-radius: 25px;
+            border: 2px solid $border_color;
+            h2 {
+                text-align: center;
+                margin-bottom: 10px;
+            }
+            article {
+                margin-left: 20px;
+            }
+        }
+    }
+    .row-1 {
+        // style="border: 1px solid black; width: 100%; margin: auto"
+        width: 100%; 
+        margin: auto;
+        .box-1 {
+            // style="border: 1px solid black;"
+            img {
+                // style="border: 1px solid black; display: block; margin: auto"
+                display: block; 
+                margin: auto;
+            }
+        }
+        .box-2 {
+            // style="border: 1px solid black"
+            .row-2 {
+                // style="border: 1px solid black; height: 100%"
+                height: 100%;
+                .box-3 {
+                    // style="border: 1px solid black; height: 80%"
+                    height: 80%;
+                    .row-3 {
+                        // style="height: 100%; border: 1px solid black;"
+                        height: 100%;
+                        .graph-bar-1 {
+                            // style="border: 1px solid black; height: 90%; margin: auto; background-color: blue"
+                            // height: 90%; 
+                            margin: auto;   
+                            background-color: $hp_color;
+                            border: 1px solid $bar_border_color;
+                        }
+                        .alakazam-hp {
+                            animation: expandAlakazamHp 2.5s forwards;
+                        }
+                        .squirtle-hp {
+                            animation: expandSquirtleHp 2.5s forwards;
+                        }
+                        .xatu-hp {
+                            animation: expandXatuHp 2.5s forwards;
+                        }
+                        .graph-bar-2 {
+                            // style="border: 1px solid black; height: 70%; margin: auto; background-color: red"
+                            // height: 70%; 
+                            margin: auto; 
+                            background-color: $attack_color;
+                            border: 1px solid $bar_border_color;
+                        }
+                        .alakazam-attack {
+                            animation: expandAlakazamAttack 2.5s forwards;
+                        }
+                        .squirtle-attack {
+                            animation: expandSquirtleAttack 2.5s forwards;
+                        }
+                        .xatu-attack {
+                            animation: expandXatuAttack 2.5s forwards;
+                        }
+                        .graph-bar-3 {
+                            // style="border: 1px solid black; height: 50%; margin: auto; background-color: green"
+                            // height: 50%; 
+                            margin: auto; 
+                            background-color: $defense_color;
+                            border: 1px solid $bar_border_color;
+                        }
+                        .alakazam-defense {
+                            animation: expandAlakazamDefense 2.5s forwards;
+                        }
+                        .squirtle-defense {
+                            animation: expandSquirtleDefense 2.5s forwards;
+                        }
+                        .xatu-defense {
+                            animation: expandXatuDefense 2.5s forwards;
+                        }
+                    }
+                }
+                .text-container {
+                    // style="border: 1px solid black; height: 20%"
+                    height: 20%;
+                    .text-box {
+                        // style="border: 1px solid black; margin: 5px 0; text-align: center"
+                        margin: 5px 0; 
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Hover event
+.poke-icon {
+    img:hover {
+    width: 30%;
+    }
+}
+
+// Animations
+// Alakazam
+@keyframes expandAlakazamHp {
+    0% {height: 0;}
+    100% {height: $alakazam_hp_height;}
+}
+
+@keyframes expandAlakazamAttack {
+    0% {height: 0;}
+    100% {height: $alakazam_attack_height;}
+}
+
+@keyframes expandAlakazamDefense {
+    0% {height: 0;}
+    100% {height: $alakazam_defense_height;}
+}
+
+// Squirtle
+@keyframes expandSquirtleHp {
+    0% {height: 0;}
+    100% {height: $squirtle_hp_height;}
+}
+
+@keyframes expandSquirtleAttack {
+    0% {height: 0;}
+    100% {height: $squirtle_attack_height;}
+}
+
+@keyframes expandSquirtleDefense {
+    0% {height: 0;}
+    100% {height: $squirtle_defense_height;}
+}
+
+// Xatu
+@keyframes expandXatuHp {
+    0% {height: 0;}
+    100% {height: $xatu_hp_height;}
+}
+
+@keyframes expandXatuAttack {
+    0% {height: 0;}
+    100% {height: $xatu_attack_height;}
+}
+
+@keyframes expandXatuDefense {
+    0% {height: 0;}
+    100% {height: $xatu_defense_height;}
+}

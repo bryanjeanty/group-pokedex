@@ -1,0 +1,294 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #EDE6F2;
+  color: #EDE6F2;
+}
+
+nav {
+  background-color: #048BA8;
+  height: 50px;
+}
+nav ul {
+  width: 80%;
+  margin: auto;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 15px 30px 10px 0;
+}
+nav ul li .nav_links {
+  text-decoration: none;
+  color: #EDE6F2;
+  height: 100%;
+  width: 100%;
+}
+nav ul li:hover {
+  border-bottom: 1px solid #EDE6F2;
+}
+
+main {
+  height: 800px;
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #048BA8;
+  border-radius: 25px;
+  color: #EDE6F2;
+}
+main h1 {
+  text-align: center;
+  font-size: 2.25em;
+  padding: 20px;
+}
+main .carousel-container {
+  width: 50%;
+  margin: auto;
+}
+main .carousel-container img {
+  height: 300px;
+  border-radius: 25px;
+}
+main .carousel-container .carousel-control-prev {
+  margin-left: 300px;
+  background-color: #EDE6F2;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-top: 315px;
+}
+main .carousel-container .carousel-control-next {
+  margin-right: 300px;
+  background-color: #EDE6F2;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-top: 315px;
+}
+main .trainer-input {
+  background-color: #EDE6F2;
+  text-align: center;
+  padding: 10px;
+  margin: 50px 0 30px 0;
+}
+main .trainer-input input {
+  margin: 0 40px;
+  border: none;
+  padding-left: 5px;
+  border: 1px solid #048BA8;
+}
+main .trainer-input button {
+  padding: 8px 13px;
+  border: none;
+  text-align: center;
+  color: #EDE6F2;
+  background-color: #048BA8;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #048BA8;
+  height: 100%;
+}
+footer .btm-pg {
+  width: 80%;
+  margin: auto;
+}
+footer .btm-pg h4 {
+  margin-top: 10px;
+}
+footer .btm-pg li {
+  list-style: none;
+}
+footer .btm-pg p {
+  text-align: center;
+}
+
+.char_main {
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #048BA8;
+  border-radius: 25px;
+  color: #EDE6F2;
+}
+.char_main h1 {
+  text-align: center;
+  font-size: 2.25em;
+  padding: 20px;
+}
+.char_main .box_item {
+  margin-left: 120px;
+  margin-right: 40px;
+}
+.char_main .box_item .pokemon_img {
+  width: 35%;
+  float: left;
+}
+.char_main .box_item .pokemon_sect {
+  width: 50%;
+  float: right;
+  margin-top: 50px;
+  padding-top: 15px;
+  border-radius: 25px;
+  border: 2px solid #EDE6F2;
+}
+.char_main .box_item .pokemon_sect h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.char_main .box_item .pokemon_sect article {
+  margin-left: 20px;
+}
+.char_main .row-1 {
+  width: 100%;
+  margin: auto;
+}
+.char_main .row-1 .box-1 img {
+  display: block;
+  margin: auto;
+}
+.char_main .row-1 .box-2 .row-2 {
+  height: 100%;
+}
+.char_main .row-1 .box-2 .row-2 .box-3 {
+  height: 80%;
+}
+.char_main .row-1 .box-2 .row-2 .box-3 .row-3 {
+  height: 100%;
+}
+.char_main .row-1 .box-2 .row-2 .box-3 .row-3 .graph-bar-1 {
+  margin: auto;
+  background-color: #A4036F;
+  border: 1px solid #EDE6F2;
+}
+.char_main .row-1 .box-2 .row-2 .box-3 .row-3 .alakazam-hp {
+  animation: expandAlakazamHp 2.5s forwards;
+}
+.char_main .row-1 .box-2 .row-2 .box-3 .row-3 .squirtle-hp {
+  animation: expandSquirtleHp 2.5s forwards;
+}
+.char_main .row-1 .box-2 .row-2 .box-3 .row-3 .xatu-hp {
+  animation: expandXatuHp 2.5s forwards;
+}
+.char_main .row-1 .box-2 .row-2 .box-3 .row-3 .graph-bar-2 {
+  margin: auto;
+  background-color: #16DB93;
+  border: 1px solid #EDE6F2;
+}
+.char_main .row-1 .box-2 .row-2 .box-3 .row-3 .alakazam-attack {
+  animation: expandAlakazamAttack 2.5s forwards;
+}
+.char_main .row-1 .box-2 .row-2 .box-3 .row-3 .squirtle-attack {
+  animation: expandSquirtleAttack 2.5s forwards;
+}
+.char_main .row-1 .box-2 .row-2 .box-3 .row-3 .xatu-attack {
+  animation: expandXatuAttack 2.5s forwards;
+}
+.char_main .row-1 .box-2 .row-2 .box-3 .row-3 .graph-bar-3 {
+  margin: auto;
+  background-color: #EFEA5A;
+  border: 1px solid #EDE6F2;
+}
+.char_main .row-1 .box-2 .row-2 .box-3 .row-3 .alakazam-defense {
+  animation: expandAlakazamDefense 2.5s forwards;
+}
+.char_main .row-1 .box-2 .row-2 .box-3 .row-3 .squirtle-defense {
+  animation: expandSquirtleDefense 2.5s forwards;
+}
+.char_main .row-1 .box-2 .row-2 .box-3 .row-3 .xatu-defense {
+  animation: expandXatuDefense 2.5s forwards;
+}
+.char_main .row-1 .box-2 .row-2 .text-container {
+  height: 20%;
+}
+.char_main .row-1 .box-2 .row-2 .text-container .text-box {
+  margin: 5px 0;
+  text-align: center;
+}
+
+.poke-icon img:hover {
+  width: 30%;
+}
+
+@keyframes expandAlakazamHp {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 55%;
+  }
+}
+@keyframes expandAlakazamAttack {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 50%;
+  }
+}
+@keyframes expandAlakazamDefense {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 45%;
+  }
+}
+@keyframes expandSquirtleHp {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 44%;
+  }
+}
+@keyframes expandSquirtleAttack {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 48%;
+  }
+}
+@keyframes expandSquirtleDefense {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 65%;
+  }
+}
+@keyframes expandXatuHp {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 65%;
+  }
+}
+@keyframes expandXatuAttack {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 75%;
+  }
+}
+@keyframes expandXatuDefense {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 70%;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
