@@ -1,6 +1,6 @@
 // Color Scheme
-$poke_light_blue: #048BA8;
-$lavender_mist: #EDE6F2;
+$poke_light_blue: #9E2A2B; //red brown
+$lavender_mist: #B4C5E4;
 
 * {
     margin: 0;
@@ -11,24 +11,38 @@ header {
     background: url("https://images.pexels.com/photos/1310847/pexels-photo-1310847.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat center center fixed;
     background-size: cover;
     height: 100vh;
-    ul {
-        width: 80%;
-        margin: auto;
-        .m-5 {
-            padding: 10px;
-            list-style: none;
-            font-weight: bold;
-            color: $lavender_mist;
-            background-color: $poke_light_blue;
-            float: left;
-            font-weight: bold;
-            margin: 25px 40px 0 0;
-            text-align: center;
+    form {
+        margin-left: 20px;
+        // margin-top: 50px;
+        .row {
+            margin: 30px 0 0 30px;
+            display: inline-block;
+            // position: absolute;
+            #input1, #input2 {
+                padding: 5px;
+                font-weight: bold;
+                color: $lavender_mist;
+                float: left;
+                text-align: center;
+                border: 1px solid $poke_light_blue;
+                background-color: $lavender_mist;
+                color: $poke_light_blue;
+            }
+            #btn1, #btn2 {
+                margin-top: 10px;
+                padding: 5px;
+                border: none;
+                border-radius: 5px;
+                background-color: $poke_light_blue;
+                color: $lavender_mist;
+                cursor: pointer;
+            }
         }
     }
 }
 
 #sect-1 {
+    display: none;
     background-color: $poke_light_blue;
     color: $lavender_mist;
     height: 100vh;
@@ -122,6 +136,7 @@ header {
 }
 
 #sect-2 {
+    display: none;
     background-color: $lavender_mist;
     color: $poke_light_blue;
     height: 100vh;

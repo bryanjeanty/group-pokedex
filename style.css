@@ -8,25 +8,37 @@ header {
   background-size: cover;
   height: 100vh;
 }
-header ul {
-  width: 80%;
-  margin: auto;
+header form {
+  margin-left: 20px;
 }
-header ul .m-5 {
-  padding: 10px;
-  list-style: none;
+header form .row {
+  margin: 30px 0 0 30px;
+  display: inline-block;
+}
+header form .row #input1, header form .row #input2 {
+  padding: 5px;
   font-weight: bold;
-  color: #EDE6F2;
-  background-color: #048BA8;
+  color: #B4C5E4;
   float: left;
-  font-weight: bold;
-  margin: 25px 40px 0 0;
   text-align: center;
+  border: 1px solid #9E2A2B;
+  background-color: #B4C5E4;
+  color: #9E2A2B;
+}
+header form .row #btn1, header form .row #btn2 {
+  margin-top: 10px;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #9E2A2B;
+  color: #B4C5E4;
+  cursor: pointer;
 }
 
 #sect-1 {
-  background-color: #048BA8;
-  color: #EDE6F2;
+  display: none;
+  background-color: #9E2A2B;
+  color: #B4C5E4;
   height: 100vh;
 }
 #sect-1 .row {
@@ -94,8 +106,9 @@ header ul .m-5 {
 }
 
 #sect-2 {
-  background-color: #EDE6F2;
-  color: #048BA8;
+  display: none;
+  background-color: #B4C5E4;
+  color: #9E2A2B;
   height: 100vh;
 }
 #sect-2 .row {
@@ -172,8 +185,8 @@ header ul .m-5 {
 }
 
 footer {
-  background-color: #048BA8;
-  color: #EDE6F2;
+  background-color: #9E2A2B;
+  color: #B4C5E4;
   height: 25px;
 }
 
