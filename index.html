@@ -12,17 +12,17 @@
     <header>
         <nav>
             <ul>
-                <li class="m-5">Trainer 1</li>
-                <li class="m-5">Trainer 2</li>
+                <a href='#sect-1'><li class="m-5">Trainer 1</li></a>
+                <a href='#sect-2'><li class="m-5">Trainer 2</li></a>
             </ul>
         </nav>
     </header>
 
-    <main>
+    <section id='sect-1'>
             <div class="row" style="width: 95%; height: 100%; margin: auto;">
                 <div class="col-6" style="height: 80vh; margin: auto">
-                    <h3 style="text-align:center">Pokemon Trainer 1</h3>
-                    <img style='margin: 100px 0 0 220px' src="./images/trainer-1.png" alt="Image of pokemon trainer 1">
+                    <h3 style="text-align:center">Buraian</h3>
+                    <img style='margin: 100px 0 0 220px; width: 150px' src="./images/trainer-1.png" alt="Image of pokemon trainer 1">
                 </div>
                
                 <div class="col-6" style="height: 80vh; margin: auto">
@@ -91,9 +91,83 @@
                     </div>
                 </div>
             </div>
-    </main>
+    </section>
 
-    <footer>
+    <section id='sect-2'>
+            <div class="row" style="width: 95%; height: 100%; margin: auto;">
+                <div class="col-6" style="height: 80vh; margin: auto">
+                    <h3 style="text-align:center">Mohameddo</h3>
+                    <img style='margin: 100px 0 0 220px; width: 180px' src="./images/trainer-2.png" alt="Image of pokemon trainer 2">
+                </div>
+               
+                <div class="col-6" style="height: 80vh; margin: auto">
+                    <div class="carousel-container">
+                        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+
+                            <div class="carousel-item active">
+                                <div class='row'  style="height: 50vh; margin-top: 100px">
+                                    <div class='col-12' style="text-align: center;">
+                                        <h4 id="poke-4-title"></h4>
+                                    </div>
+                                        <div class="w-100"></div>
+                                    <div class='col-6'>
+                                        <img id="poke-4-gif" class="d-block w-100" src="" alt="First slide">
+                                    </div>
+                                    <div class='col-6'>
+                                        <div style="height: 20%"></div>
+                                        <p id="poke-4-info" style="height: 80%"></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item" >
+                                <div class='row'  style="height: 50vh; margin-top: 100px">
+                                    <div class='col-12' style="text-align: center;">
+                                        <h4 id="poke-5-title"></h4>
+                                    </div>
+                                        <div class="w-100"></div>
+                                    <div class='col-2' style='margin-left: 200px'>
+                                        <img style='width: 100%' id="poke-5-gif" class="d-block w-100" src="" alt="First slide">
+                                    </div>
+                                    <div class='col-6'>
+                                        <p id="poke-5-info"></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class='row'  style="height: 50vh; margin-top: 100px">
+                                    <div class='col-12' style="text-align: center;">
+                                        <h4 id='poke-6-title'></h4>
+                                    </div>
+                                        <div class="w-100"></div>
+                                    <div class='col-6'>
+                                        <img id='poke-6-gif'class="d-block w-100" src="" alt="First slide">
+                                    </div>
+                                    <div class='col-6'>
+                                        <div style="height: 20%"></div>
+                                        <p id='poke-6-info' style="height: 80%"></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <footer style="text-align:center">
         &copy; 2018
     </footer>
 </body>

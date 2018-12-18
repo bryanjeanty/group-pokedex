@@ -16,7 +16,7 @@ header ul .m-5 {
   padding: 10px;
   list-style: none;
   font-weight: bold;
-  color: #FFFFFF;
+  color: #EDE6F2;
   background-color: #048BA8;
   float: left;
   font-weight: bold;
@@ -24,18 +24,30 @@ header ul .m-5 {
   text-align: center;
 }
 
-main {
+#sect-1 {
   background-color: #048BA8;
+  color: #EDE6F2;
   height: 100vh;
 }
-main .carousel-container {
+#sect-1 .carousel-container {
+  height: 70%;
+  margin: auto;
+}
+
+#sect-2 {
+  background-color: #EDE6F2;
+  color: #048BA8;
+  height: 100vh;
+}
+#sect-2 .carousel-container {
   height: 70%;
   margin: auto;
 }
 
 footer {
+  background-color: #048BA8;
+  color: #EDE6F2;
   height: 25px;
-  color: #048BA8;
 }
 
 /*# sourceMappingURL=style.css.map */
