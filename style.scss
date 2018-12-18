@@ -1,6 +1,6 @@
 // Color Scheme
-$poke_light_blue: #048BA8;
-$lavender_mist: #EDE6F2;
+$poke_light_blue: #9E2A2B; //red brown
+$lavender_mist: #B4C5E4;
 
 * {
     margin: 0;
@@ -15,7 +15,7 @@ header {
         margin-left: 20px;
         // margin-top: 50px;
         .row {
-            margin-top: 50px;
+            margin: 30px 0 0 30px;
             display: inline-block;
             // position: absolute;
             #input1, #input2 {
@@ -24,10 +24,18 @@ header {
                 color: $lavender_mist;
                 float: left;
                 text-align: center;
+                border: 1px solid $poke_light_blue;
+                background-color: $lavender_mist;
+                color: $poke_light_blue;
             }
             #btn1, #btn2 {
                 margin-top: 10px;
-                margin-left: 10px;
+                padding: 5px;
+                border: none;
+                border-radius: 5px;
+                background-color: $poke_light_blue;
+                color: $lavender_mist;
+                cursor: pointer;
             }
         }
     }
