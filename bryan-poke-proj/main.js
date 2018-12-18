@@ -107,5 +107,4 @@ submit.addEventListener('click', (event) => {
         pokeIcon[i].style.textAlign = 'center';
         pokeIcon[i].style.margin = '15px 28px';
     }
-
 });
