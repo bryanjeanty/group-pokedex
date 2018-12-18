@@ -37,6 +37,13 @@ header {
             }
         }
     }
+    h1 {
+        text-align: center;
+        margin-top: 205px;
+        color: white;
+        font-weight: bold;
+        animation: expandAndDisappear 3.5s forwards;
+    }
 }
 
 #sect-1 {
@@ -204,4 +211,11 @@ footer {
     background-color: $red_brown;
     color: $light_steel_blue;
     height: 25px;
+}
+
+// Animations
+@keyframes expandAndDisappear {
+    0% {font-size: 1em;}
+    50% {font-size: 10em;}
+    100% {font-size: 0em;}
 }
