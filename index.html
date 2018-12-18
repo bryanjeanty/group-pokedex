@@ -15,10 +15,16 @@
     <header>
         <nav>
             <form>
-                <input type="text" name="trainer-1" id="input1" placeholder="input your trainer name">
-                <button id="btn1">Enter</button>
-                <input type="text" name="trainer-2" id="input2" placeholder="input your trainer name">
-                <button id="btn2">Enter</button>
+                <div class='row'>
+                    <input id="input1" type="text" name="trainer-1" placeholder="input your trainer name">
+                    <div class="w-100"></div>
+                    <button id="btn1">Enter</button>
+                </div>
+                <div class='row'>
+                    <input id="input2" type="text" name="trainer-2" placeholder="input your trainer name">
+                    <div class="w-100"></div>
+                    <button id="btn2">Enter</button>
+                </div>
             </form>
         </nav>
     </header>
@@ -26,7 +32,7 @@
     <section id='sect-1'>
         <div class="row">
             <div class="col-6 trainer-box-1">
-                <h3 id="trainer1">Buraian</h3>
+                <h3 id="trainer1"></h3>
                 <img src="./images/trainer-1.png" alt="Image of pokemon trainer 1">
             </div>
 
@@ -162,5 +168,5 @@
     crossorigin="anonymous" defer></script>
 <script src="https://unpkg.com/axios/dist/axios.min.js" defer></script>
 <script src="script.js" defer></script>
-
+<script src="script2.js" defer></script>
 </html>

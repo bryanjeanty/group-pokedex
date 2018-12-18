@@ -8,23 +8,27 @@ header {
   background-size: cover;
   height: 100vh;
 }
-header ul {
-  width: 80%;
-  margin: auto;
+header form {
+  margin-left: 20px;
 }
-header ul .m-5 {
-  padding: 10px;
-  list-style: none;
+header form .row {
+  margin-top: 50px;
+  display: inline-block;
+}
+header form .row #input1, header form .row #input2 {
+  padding: 5px;
   font-weight: bold;
   color: #EDE6F2;
-  background-color: #048BA8;
   float: left;
-  font-weight: bold;
-  margin: 25px 40px 0 0;
   text-align: center;
+}
+header form .row #btn1, header form .row #btn2 {
+  margin-top: 10px;
+  margin-left: 10px;
 }
 
 #sect-1 {
+  display: none;
   background-color: #048BA8;
   color: #EDE6F2;
   height: 100vh;
@@ -94,6 +98,7 @@ header ul .m-5 {
 }
 
 #sect-2 {
+  display: none;
   background-color: #EDE6F2;
   color: #048BA8;
   height: 100vh;
