@@ -9,6 +9,7 @@ btn1.addEventListener("click",(event)=>{
     event.preventDefault();
     name1.innerHTML = input1.value;
     let sect1 = document.querySelector('#sect-1');
+    sect1.style.display = "block";
     sect1.scrollIntoView(true);
 })
 
@@ -16,5 +17,6 @@ btn2.addEventListener("click",(event)=>{
     event.preventDefault();
     name2.innerHTML = input2.value;
     let sect2 = document.querySelector("#sect-2");
+    sect2.style.display = "block";
     sect2.scrollIntoView(true);
 })
