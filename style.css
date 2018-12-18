@@ -16,7 +16,7 @@ header ul .m-5 {
   padding: 10px;
   list-style: none;
   font-weight: bold;
-  color: #FFFFFF;
+  color: #EDE6F2;
   background-color: #048BA8;
   float: left;
   font-weight: bold;
@@ -24,18 +24,157 @@ header ul .m-5 {
   text-align: center;
 }
 
-main {
+#sect-1 {
   background-color: #048BA8;
+  color: #EDE6F2;
   height: 100vh;
 }
-main .carousel-container {
+#sect-1 .row {
+  height: 100%;
+  width: 95%;
+  margin: auto;
+}
+#sect-1 .row .trainer-box-1 {
+  height: 80vh;
+  margin: auto;
+}
+#sect-1 .row .trainer-box-1 h3 {
+  text-align: center;
+}
+#sect-1 .row .trainer-box-1 img {
+  margin: 100px 0 0 220px;
+  width: 150px;
+}
+#sect-1 .row .poke-box-1 {
+  height: 80vh;
+  margin: auto;
+}
+#sect-1 .row .poke-box-1 .carousel-container {
   height: 70%;
   margin: auto;
 }
+#sect-1 .row .poke-box-1 .carousel-container .poke-1 {
+  height: 50vh;
+  margin-top: 100px;
+}
+#sect-1 .row .poke-box-1 .carousel-container .poke-1 .title-container {
+  text-align: center;
+}
+#sect-1 .row .poke-box-1 .carousel-container .poke-1 .col-6 .poke-info-head {
+  height: 20%;
+}
+#sect-1 .row .poke-box-1 .carousel-container .poke-1 .col-6 #poke-1-info {
+  height: 80%;
+}
+#sect-1 .row .poke-box-1 .carousel-container .poke-2 {
+  height: 50vh;
+  margin-top: 100px;
+}
+#sect-1 .row .poke-box-1 .carousel-container .poke-2 .title-container {
+  text-align: center;
+}
+#sect-1 .row .poke-box-1 .carousel-container .poke-2 .col-6 .poke-info-head {
+  height: 20%;
+}
+#sect-1 .row .poke-box-1 .carousel-container .poke-2 .col-6 #poke-2-info {
+  height: 80%;
+}
+#sect-1 .row .poke-box-1 .carousel-container .poke-3 {
+  height: 50vh;
+  margin-top: 100px;
+}
+#sect-1 .row .poke-box-1 .carousel-container .poke-3 .title-container {
+  text-align: center;
+}
+#sect-1 .row .poke-box-1 .carousel-container .poke-3 .col-6 .poke-info-head {
+  height: 20%;
+}
+#sect-1 .row .poke-box-1 .carousel-container .poke-3 .col-6 #poke-3-info {
+  height: 80%;
+}
+
+#sect-2 {
+  background-color: #EDE6F2;
+  color: #048BA8;
+  height: 100vh;
+}
+#sect-2 .row {
+  height: 100%;
+  width: 95%;
+  margin: auto;
+}
+#sect-2 .row .trainer-box-2 {
+  height: 80vh;
+  margin: auto;
+}
+#sect-2 .row .trainer-box-2 h3 {
+  text-align: center;
+}
+#sect-2 .row .trainer-box-2 img {
+  margin: 100px 0 0 220px;
+  width: 180px;
+}
+#sect-2 .row .poke-box-2 {
+  height: 80vh;
+  margin: auto;
+}
+#sect-2 .row .poke-box-2 .carousel-container {
+  height: 70%;
+  margin: auto;
+}
+#sect-2 .row .poke-box-2 .carousel-container .poke-4 {
+  height: 50vh;
+  margin-top: 100px;
+}
+#sect-2 .row .poke-box-2 .carousel-container .poke-4 .title-container {
+  text-align: center;
+}
+#sect-2 .row .poke-box-2 .carousel-container .poke-4 .col-6 .poke-info-head {
+  height: 20%;
+}
+#sect-2 .row .poke-box-2 .carousel-container .poke-4 .col-6 #poke-4-info {
+  height: 80%;
+}
+#sect-2 .row .poke-box-2 .carousel-container .poke-5 {
+  height: 50vh;
+  margin-top: 100px;
+}
+#sect-2 .row .poke-box-2 .carousel-container .poke-5 .title-container {
+  text-align: center;
+}
+#sect-2 .row .poke-box-2 .carousel-container .poke-5 .col-2 {
+  margin-left: 150px;
+}
+#sect-2 .row .poke-box-2 .carousel-container .poke-5 .col-2 img {
+  padding-left: 20px;
+}
+#sect-2 .row .poke-box-2 .carousel-container .poke-5 .col-6 {
+  padding-left: 60px;
+}
+#sect-2 .row .poke-box-2 .carousel-container .poke-5 .col-6 .poke-info-head {
+  height: 20%;
+}
+#sect-2 .row .poke-box-2 .carousel-container .poke-5 .col-6 #poke-6-info {
+  height: 80%;
+}
+#sect-2 .row .poke-box-2 .carousel-container .poke-6 {
+  height: 50vh;
+  margin-top: 100px;
+}
+#sect-2 .row .poke-box-2 .carousel-container .poke-6 .title-container {
+  text-align: center;
+}
+#sect-2 .row .poke-box-2 .carousel-container .poke-6 .col-6 .poke-info-head {
+  height: 20%;
+}
+#sect-2 .row .poke-box-2 .carousel-container .poke-6 .col-6 #poke-6-info {
+  height: 80%;
+}
 
 footer {
+  background-color: #048BA8;
+  color: #EDE6F2;
   height: 25px;
-  color: #048BA8;
 }
 
 /*# sourceMappingURL=style.css.map */

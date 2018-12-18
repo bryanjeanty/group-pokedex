@@ -1,3 +1,7 @@
+// Color Scheme
+$poke_light_blue: #048BA8;
+$lavender_mist: #EDE6F2;
+
 * {
     margin: 0;
     padding: 0;
@@ -14,8 +18,8 @@ header {
             padding: 10px;
             list-style: none;
             font-weight: bold;
-            color: #FFFFFF;
-            background-color: #048BA8;// #000000;
+            color: $lavender_mist;
+            background-color: $poke_light_blue;
             float: left;
             font-weight: bold;
             margin: 25px 40px 0 0;
@@ -24,16 +28,203 @@ header {
     }
 }
 
-main {
-    background-color: #048BA8;
+#sect-1 {
+    background-color: $poke_light_blue;
+    color: $lavender_mist;
     height: 100vh;
-    .carousel-container {
-        height: 70%;
+    .row {
+        // style="width: 95%; height: 100%; margin: auto;"
+        height: 100%;
+        width: 95%;
         margin: auto;
+        .trainer-box-1 {
+            // style="height: 80vh; margin: auto"
+            height: 80vh;
+            margin: auto;
+            h3 {
+                // style="text-align:center"
+                text-align: center;
+            }
+            img {
+                // style='margin: 100px 0 0 220px; width: 150px'
+                margin: 100px 0 0 220px;
+                width: 150px;
+            }
+        }
+        .poke-box-1 {
+            // style="height: 80vh; margin: auto"
+            height: 80vh;
+            margin: auto;
+                .carousel-container {
+                    height: 70%;
+                    margin: auto;
+                    .poke-1 {
+                        // style="height: 50vh; margin-top: 100px"
+                        height: 50vh; 
+                        margin-top: 100px;
+                        .title-container {
+                            // style="text-align: center;"
+                            text-align: center;
+                        }
+                        .col-6 {
+                            .poke-info-head {
+                                // style="height: 20%"
+                                height: 20%;
+                            }
+                            #poke-1-info {
+                                // style="height: 80%"
+                                height: 80%;
+                            }
+                        }
+                    }
+                    .poke-2 {
+                        // style="height: 50vh; margin-top: 100px"
+                        height: 50vh; 
+                        margin-top: 100px;
+                        .title-container {
+                            // style="text-align: center;"
+                            text-align: center;
+                        }
+                        .col-6 {
+                            .poke-info-head {
+                                // style="height: 20%"
+                                height: 20%;
+                            }
+                            #poke-2-info {
+                                // style="height: 80%"
+                                height: 80%;
+                            }
+                        }
+                    }
+                    .poke-3 {
+                        // style="height: 50vh; margin-top: 100px"
+                        height: 50vh; 
+                        margin-top: 100px;
+                        .title-container {
+                            // style="text-align: center;"
+                            text-align: center;
+                        }
+                        .col-6 {
+                            .poke-info-head {
+                                // style="height: 20%"
+                                height: 20%;
+                            }
+                            #poke-3-info {
+                                // style="height: 80%"
+                                height: 80%;
+                            }
+                        }
+                    }
+                }
+            
+        }
+    }
+}
+
+#sect-2 {
+    background-color: $lavender_mist;
+    color: $poke_light_blue;
+    height: 100vh;
+    .row {
+        // style="width: 95%; height: 100%; margin: auto;"
+        height: 100%;
+        width: 95%;
+        margin: auto;
+        .trainer-box-2 {
+            // style="height: 80vh; margin: auto"
+            height: 80vh;
+            margin: auto;
+            h3 {
+                // style="text-align:center"
+                text-align: center;
+            }
+            img {
+                // style='margin: 100px 0 0 220px; width: 180px'
+                margin: 100px 0 0 220px;
+                width: 180px;
+            }
+        }
+        .poke-box-2 {
+            // style="height: 80vh; margin: auto"
+            height: 80vh;
+            margin: auto;
+                .carousel-container {
+                    height: 70%;
+                    margin: auto;
+                    .poke-4 {
+                        // style="height: 50vh; margin-top: 100px"
+                        height: 50vh; 
+                        margin-top: 100px;
+                        .title-container {
+                            // style="text-align: center;"
+                            text-align: center;
+                        }
+                        .col-6 {
+                            .poke-info-head {
+                                // style="height: 20%"
+                                height: 20%;
+                            }
+                            #poke-4-info {
+                                // style="height: 80%"
+                                height: 80%;
+                            }
+                        }
+                    }
+                    .poke-5 {
+                        // style="height: 50vh; margin-top: 100px"
+                        height: 50vh; 
+                        margin-top: 100px;
+                        .title-container {
+                            // style="text-align: center;"
+                            text-align: center;
+                        }
+                        .col-2 {
+                            // margin-left: 200px;
+                            margin-left: 150px;
+                            img {
+                                // width: 100%;
+                                padding-left: 20px;
+                            }
+                        }
+                        .col-6 {
+                            padding-left: 60px;
+                            .poke-info-head {
+                                // style="height: 20%"
+                                height: 20%;
+                            }
+                            #poke-6-info {
+                                // style="height: 80%"
+                                height: 80%;
+                            }
+                        }
+                    }
+                    .poke-6 {
+                        // style="height: 50vh; margin-top: 100px"
+                        height: 50vh; 
+                        margin-top: 100px;
+                        .title-container {
+                            // style="text-align: center;"
+                            text-align: center;
+                        }
+                        .col-6 {
+                            .poke-info-head {
+                                // style="height: 20%"
+                                height: 20%;
+                            }
+                            #poke-6-info {
+                                // style="height: 80%"
+                                height: 80%;
+                            }
+                        }
+                    }
+                }
+            
+        }
     }
 }
 
 footer {
+    background-color: $poke_light_blue;
+    color: $lavender_mist;
     height: 25px;
-    color: #048BA8;
 }
