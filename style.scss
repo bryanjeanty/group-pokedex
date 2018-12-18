@@ -1,6 +1,6 @@
 // Color Scheme
-$poke_light_blue: #9E2A2B; //red brown
-$lavender_mist: #B4C5E4;
+$red_brown: #9E2A2B;
+$light_steel_blue: #B4C5E4;
 
 * {
     margin: 0;
@@ -13,28 +13,26 @@ header {
     height: 100vh;
     form {
         margin-left: 20px;
-        // margin-top: 50px;
         .row {
             margin: 30px 0 0 30px;
             display: inline-block;
-            // position: absolute;
             #input1, #input2 {
                 padding: 5px;
                 font-weight: bold;
-                color: $lavender_mist;
+                color: $light_steel_blue;
                 float: left;
                 text-align: center;
-                border: 1px solid $poke_light_blue;
-                background-color: $lavender_mist;
-                color: $poke_light_blue;
+                border: 1px solid $red_brown;
+                background-color: $light_steel_blue;
+                color: $red_brown;
             }
             #btn1, #btn2 {
                 margin-top: 10px;
                 padding: 5px;
                 border: none;
                 border-radius: 5px;
-                background-color: $poke_light_blue;
-                color: $lavender_mist;
+                background-color: $red_brown;
+                color: $light_steel_blue;
                 cursor: pointer;
             }
         }
@@ -43,88 +41,71 @@ header {
 
 #sect-1 {
     display: none;
-    background-color: $poke_light_blue;
-    color: $lavender_mist;
+    background-color: $red_brown;
+    color: $light_steel_blue;
     height: 100vh;
     .row {
-        // style="width: 95%; height: 100%; margin: auto;"
         height: 100%;
         width: 95%;
         margin: auto;
         .trainer-box-1 {
-            // style="height: 80vh; margin: auto"
             height: 80vh;
             margin: auto;
             h3 {
-                // style="text-align:center"
                 text-align: center;
             }
             img {
-                // style='margin: 100px 0 0 220px; width: 150px'
                 margin: 100px 0 0 220px;
                 width: 150px;
             }
         }
         .poke-box-1 {
-            // style="height: 80vh; margin: auto"
             height: 80vh;
             margin: auto;
                 .carousel-container {
                     height: 70%;
                     margin: auto;
                     .poke-1 {
-                        // style="height: 50vh; margin-top: 100px"
                         height: 50vh; 
                         margin-top: 100px;
                         .title-container {
-                            // style="text-align: center;"
                             text-align: center;
                         }
                         .col-6 {
                             .poke-info-head {
-                                // style="height: 20%"
                                 height: 20%;
                             }
                             #poke-1-info {
-                                // style="height: 80%"
                                 height: 80%;
                             }
                         }
                     }
                     .poke-2 {
-                        // style="height: 50vh; margin-top: 100px"
                         height: 50vh; 
                         margin-top: 100px;
                         .title-container {
-                            // style="text-align: center;"
                             text-align: center;
                         }
                         .col-6 {
                             .poke-info-head {
-                                // style="height: 20%"
                                 height: 20%;
                             }
                             #poke-2-info {
-                                // style="height: 80%"
                                 height: 80%;
                             }
                         }
                     }
                     .poke-3 {
-                        // style="height: 50vh; margin-top: 100px"
                         height: 50vh; 
                         margin-top: 100px;
                         .title-container {
-                            // style="text-align: center;"
                             text-align: center;
                         }
                         .col-6 {
                             .poke-info-head {
-                                // style="height: 20%"
                                 height: 20%;
                             }
                             #poke-3-info {
-                                // style="height: 80%"
                                 height: 80%;
                             }
                         }
@@ -137,97 +118,78 @@ header {
 
 #sect-2 {
     display: none;
-    background-color: $lavender_mist;
-    color: $poke_light_blue;
+    background-color: $light_steel_blue;
+    color: $red_brown;
     height: 100vh;
     .row {
-        // style="width: 95%; height: 100%; margin: auto;"
         height: 100%;
         width: 95%;
         margin: auto;
         .trainer-box-2 {
-            // style="height: 80vh; margin: auto"
             height: 80vh;
             margin: auto;
             h3 {
-                // style="text-align:center"
                 text-align: center;
             }
             img {
-                // style='margin: 100px 0 0 220px; width: 180px'
                 margin: 100px 0 0 220px;
                 width: 180px;
             }
         }
         .poke-box-2 {
-            // style="height: 80vh; margin: auto"
             height: 80vh;
             margin: auto;
                 .carousel-container {
                     height: 70%;
                     margin: auto;
                     .poke-4 {
-                        // style="height: 50vh; margin-top: 100px"
                         height: 50vh; 
                         margin-top: 100px;
                         .title-container {
-                            // style="text-align: center;"
                             text-align: center;
                         }
                         .col-6 {
                             .poke-info-head {
-                                // style="height: 20%"
                                 height: 20%;
                             }
                             #poke-4-info {
-                                // style="height: 80%"
                                 height: 80%;
                             }
                         }
                     }
                     .poke-5 {
-                        // style="height: 50vh; margin-top: 100px"
                         height: 50vh; 
                         margin-top: 100px;
                         .title-container {
-                            // style="text-align: center;"
                             text-align: center;
                         }
                         .col-2 {
-                            // margin-left: 200px;
                             margin-left: 150px;
                             img {
-                                // width: 100%;
                                 padding-left: 20px;
                             }
                         }
                         .col-6 {
                             padding-left: 60px;
                             .poke-info-head {
-                                // style="height: 20%"
                                 height: 20%;
                             }
                             #poke-6-info {
-                                // style="height: 80%"
                                 height: 80%;
                             }
                         }
                     }
                     .poke-6 {
-                        // style="height: 50vh; margin-top: 100px"
                         height: 50vh; 
                         margin-top: 100px;
                         .title-container {
-                            // style="text-align: center;"
                             text-align: center;
                         }
                         .col-6 {
                             .poke-info-head {
-                                // style="height: 20%"
                                 height: 20%;
                             }
                             #poke-6-info {
-                                // style="height: 80%"
                                 height: 80%;
                             }
                         }
@@ -239,7 +201,7 @@ header {
 }
 
 footer {
-    background-color: $poke_light_blue;
-    color: $lavender_mist;
+    background-color: $red_brown;
+    color: $light_steel_blue;
     height: 25px;
 }
