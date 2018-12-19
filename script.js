@@ -127,7 +127,7 @@ axios.get('https://pokeapi.co/api/v2/pokemon/xatu/')
 
 // Mohamed Pokemon
 // Braviary
-axios.get("http://fizal.me/pokeapi/api/v2/name/braviary.json")
+axios.get("https://fizal.me/pokeapi/api/v2/name/braviary.json")
     .then((response) => {
         let data = response.data;
         let stat = data.stats;
@@ -166,7 +166,7 @@ axios.get("http://fizal.me/pokeapi/api/v2/name/braviary.json")
     });
 
 // Castform
-axios.get("http://fizal.me/pokeapi/api/v2/name/castform.json")
+axios.get("https://fizal.me/pokeapi/api/v2/name/castform.json")
     .then((response) => {
         let data = response.data;
         let stat = data.stats;
@@ -205,7 +205,7 @@ axios.get("http://fizal.me/pokeapi/api/v2/name/castform.json")
     });
 
 // Charizard
-axios.get("http://fizal.me/pokeapi/api/v2/name/charizard.json")
+axios.get("https://fizal.me/pokeapi/api/v2/name/charizard.json")
     .then((response) => {
         let data = response.data;
         let stat = data.stats;
