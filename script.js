@@ -21,7 +21,7 @@ axios.get('https://pokeapi.co/api/v2/pokemon/alakazam/')
         let alakazam = new Pokemon(stat[5].base_stat, stat[4].base_stat, stat[3].base_stat, abilities);
 
         let poke1_gif = document.querySelector('#poke-1-gif');
-        poke1_gif.src = 'http://www.pokestadium.com/sprites/xy/alakazam-3.gif';
+        poke1_gif.src = 'https://www.pokestadium.com/sprites/xy/alakazam-3.gif';
 
         let poke1_info = document.querySelector('#poke-1-info');
 
@@ -60,7 +60,7 @@ axios.get('https://pokeapi.co/api/v2/pokemon/squirtle/')
         let squirtle = new Pokemon(stat[5].base_stat, stat[4].base_stat, stat[3].base_stat, abilities);
         
         let poke2_gif = document.querySelector('#poke-2-gif');
-        poke2_gif.src = 'http://www.pokestadium.com/sprites/xy/squirtle-2.gif';
+        poke2_gif.src = 'https://www.pokestadium.com/sprites/xy/squirtle-2.gif';
 
         let poke2_info = document.querySelector('#poke-2-info');
 
@@ -99,7 +99,7 @@ axios.get('https://pokeapi.co/api/v2/pokemon/xatu/')
         let xatu = new Pokemon(stat[5].base_stat, stat[4].base_stat, stat[3].base_stat, abilities);
 
         let poke3_gif = document.querySelector('#poke-3-gif');
-        poke3_gif.src = 'http://www.pokestadium.com/sprites/xy/xatu-3.gif';
+        poke3_gif.src = 'https://www.pokestadium.com/sprites/xy/xatu-3.gif';
 
         let poke3_info = document.querySelector('#poke-3-info');
 
@@ -139,7 +139,7 @@ axios.get("http://fizal.me/pokeapi/api/v2/name/braviary.json")
         let braviary = new Pokemon(stat[5].base_stat, stat[4].base_stat, stat[3].base_stat, abilities);
 
         let poke4_gif = document.querySelector('#poke-4-gif');
-        poke4_gif.src = 'http://www.pokestadium.com/sprites/xy/braviary.gif';
+        poke4_gif.src = 'https://www.pokestadium.com/sprites/xy/braviary.gif';
 
         let poke4_info = document.querySelector('#poke-4-info');
 
@@ -178,7 +178,7 @@ axios.get("http://fizal.me/pokeapi/api/v2/name/castform.json")
         let castform = new Pokemon(stat[5].base_stat, stat[4].base_stat, stat[3].base_stat, abilities);
 
         let poke5_gif = document.querySelector('#poke-5-gif');
-        poke5_gif.src = 'http://www.pokestadium.com/sprites/xy/castform.gif';
+        poke5_gif.src = 'https://www.pokestadium.com/sprites/xy/castform.gif';
 
         let poke5_info = document.querySelector('#poke-5-info');
 
@@ -217,7 +217,7 @@ axios.get("http://fizal.me/pokeapi/api/v2/name/charizard.json")
         let charizard = new Pokemon(stat[5].base_stat, stat[4].base_stat, stat[3].base_stat, abilities);
 
         let poke6_gif = document.querySelector('#poke-6-gif');
-        poke6_gif.src = 'http://www.pokestadium.com/sprites/xy/charizard-3.gif';
+        poke6_gif.src = 'https://www.pokestadium.com/sprites/xy/charizard-3.gif';
 
         let poke6_info = document.querySelector('#poke-6-info');
 
